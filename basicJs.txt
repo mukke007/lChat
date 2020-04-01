@@ -1,0 +1,64 @@
+****************************************************************
+
+variable decleration
+    var name = "Person" //(old) not used and hoisted
+
+    const name = "Person"        // These two not hoisted
+    let name = "Person"
+
+/*
+
+    guess output:
+
+        name = "newName"; (' ' and " " are same thing)
+        
+        var name;
+
+        console.log(name);
+
+*/
+****************************************************************
+
+
+Every thing is Object in Javascript
+
+****************************************************************
+Functions are Object
+Arrays are Object
+Objects are Object
+****************************************************************
+
+
+Functions are called (First Class Citizens) means 
+    -> can be returned, used as args to functions, save in variables 
+
+
+*****************************************************************
+Simple Functions:
+    
+    //Anonymous Function without any name
+    function(arg1, arg2, .......){
+        return;
+    }
+
+    //Function with name (not used much)
+    function funcName(arg1,.......){
+        return;
+    }
+
+    //name function used by saving them in variables
+    const funcName = function(args......){
+        return
+    }
+
+    //Fat Arrow Functions (ES6)
+    const funcName = (...args) => {
+        return;
+    }
+
+    OR
+
+    //use if only there is only a return statement in function. nothing extra
+    const funcName = (x) => ( x * x );  // if no curly base it simply return whatever return without writing return keyword.
+
+************************************************************************
