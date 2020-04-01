@@ -61,4 +61,5 @@ Simple Functions:
     //use if only there is only a return statement in function. nothing extra
     const funcName = (x) => ( x * x );  // if no curly base it simply return whatever return without writing return keyword.
 
+my name is  praveshhbfjdbfbc
 ************************************************************************
